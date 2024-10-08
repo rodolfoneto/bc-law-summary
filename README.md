@@ -46,14 +46,20 @@ Access the application in your browser at http://localhost:3000.
 
 ### Assumptions
 
-The BC Laws API is publicly accessible and does not require authentication.
-The LLM API used for document summarization supports basic REST integration.
-Future Improvements
+-   The BC Laws API is publicly accessible and does not require authentication.
+-   The LLM API used for document summarization supports basic REST integration.
+-   The API response is in XML and is not "native" in Javascript.
+-   CORS issues were encountered during development, and workarounds were implemented to ensure API calls function correctly.
 
-Enhance the user interface for a better user experience.
-Implement authentication for secure access.
-Add filtering options to refine search results.
+### Future Improvements
+
+-   Enhance the user interface for a better user experience.
+-   Add filtering options to refine search results
+-   Implement Unit Tests and Integration Tests.
 
 ### Deployment
+
+Currently the project has CI/CD for hostinger via GitHubActions, just look at the .github/workflows/deploy.yml file
+Each pull_request in main executes the deploy.
 
 The application can be deployed on any cloud provider (e.g., Hostinger, AWS) using containerization (e.g., Docker).
