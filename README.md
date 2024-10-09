@@ -14,7 +14,7 @@ Clone the repository:
 Copy code
 
 ```bash
-git clone [https://github.com/yourusername/BC-Laws-Search.git](https://github.com/rodolfoneto/bc-law-summary)
+git clone https://github.com/rodolfoneto/bc-law-summary
 ```
 
 Navigate to the project directory:
