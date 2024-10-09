@@ -11,35 +11,33 @@ AI-Powered Summarization: Summarizes retrieved documents using a connected LLM A
 
 Clone the repository:
 
-Copy code
-
-```bash
+```
 git clone https://github.com/rodolfoneto/bc-law-summary
 ```
 
 Navigate to the project directory:
 
-Copy code
-
-```bash
+```
 cd bc-law-summary
+```
+
 Install dependencies for Laravel
 
-#Copy code
+```
 composer install
-
 npm install
-#Set up your environment variables (.env file) for Laravel.
-#Usage
-#Run the Laravel backend:
+```
 
-#Copy code
+Set up your environment variables (.env file) for Laravel.
+Usage
+Run the Laravel backend:
+```
 php artisan serve
-#Run the React frontend:
+````
 
-#Copy code
+Run the React frontend:
+```
 npm start
-
 ```
 
 Access the application in your browser at http://localhost:3000.
